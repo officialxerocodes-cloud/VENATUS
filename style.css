@@ -1,0 +1,1275 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+    color: white;
+}
+
+.pre1 a {
+    font-weight: 1000;
+}
+
+.pre1 a:hover {
+    color: #373bef;
+}
+
+.nav1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DAEF68;
+    color: #000000;
+    font-family: monospace;
+    font-size: 0.875rem;
+    height: 2.875rem;
+    max-width: 100%;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+.nav1 a {
+    color: #000000;
+}
+
+.pre1 {
+    color: black;
+}
+
+.nav2 {
+    height: 6.25rem;
+    color: #222222;
+    background-color: #000000;
+    font-size: 0.875rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 1.4375rem;
+    color: #FFFFFF;
+    line-height: 1em;
+    position: relative;
+    padding-bottom: auto;
+    padding-top: auto;
+    left: -10rem;
+    z-index: 100;
+    font-weight: 100;
+    cursor: pointer;
+    text-align: left;
+    font-family: monospace;
+    text-decoration: none;
+    margin-left: 12.5rem;
+}
+
+h1 a {
+    text-decoration: none;
+}
+
+h1 a:hover {
+    color: #a9a9a9;
+}
+
+.collections {
+    margin-left: 3.125rem;
+    padding: 0.625rem;
+}
+
+.collections a {
+    text-decoration: none;
+}
+
+.collections a:hover {
+    color: #a9a9a9;
+}
+
+.collections1 {
+    margin-left: 0.5rem;
+    padding: 0.625rem;
+}
+
+.collections1 a {
+    text-decoration: none;
+}
+
+.collections1 a:hover {
+    color: #a9a9a9;
+}
+
+.collections2 {
+    margin-right: 2.5rem;
+    margin-left: 0.5rem;
+    padding: 0.625rem;
+}
+
+.subbtn {
+    text-transform: uppercase;
+    border: 1px solid #a9a9a9;
+    padding: 0.1875rem 0.625rem;
+    background-color: transparent;
+    font-size: 0.8125rem;
+    cursor: pointer;
+    margin-left: 3.125rem;
+}
+
+.subbtn0 a {
+    text-decoration: none;
+}
+
+.subbtn:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    background-size: contain;
+    height: 58vh;
+    width: 50vw;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    margin-left: auto;
+    margin-top: 3.125rem;
+    margin-right: auto;
+    cursor: pointer;
+    filter: brightness(80%);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent 60%), linear-gradient(to right, rgba(0, 0, 0, 0.6), transparent 60%), url("https://lh3.googleusercontent.com/dgXl2AmhVBIavKSQcYK4asjJBxsW7i-usd_MZxmFzvbb4IPTOzcg_p8EhDeEgoZmqc8PX8sXKA3SL6bIr9JRyfFdSLZBlw");
+}
+
+.hero-content {
+    height: 0;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    margin-left: 0;
+    padding-left: 6.25%;
+    padding-bottom: 0%;
+    padding-top: 0%;
+}
+
+.hero a {
+    text-decoration: none;
+}
+
+.hero-content-text {
+    color: white;
+    margin-bottom: 0;
+    padding-bottom: 0%;
+}
+
+.hero-content-text p {
+    color: white;
+    margin-bottom: 0;
+    position: relative;
+    left: -0.3125%;
+    padding-bottom: 0%;
+}
+
+.hero-content-experiment {
+    font-size: 1.25rem;
+    margin-bottom: 0;
+    position: relative;
+    left: -3.125rem;
+    padding-bottom: 0%;
+    font-weight: 200;
+}
+
+.hero-content-text h2 {
+    color: white;
+    margin-bottom: 0;
+    padding-bottom: 0%;
+    font-weight: 200;
+    font-size: 3.125rem;
+    position: relative;
+    left: -3.125rem;
+    margin-bottom: 0;
+}
+
+.para1 {
+    font-size: 0.875rem;
+    margin-bottom: 0;
+    padding-bottom: 0%;
+    position: relative;
+    left: -15rem;
+    text-align: start;
+}
+
+.pr0 {
+    margin-left: -0.625rem;
+    padding-left: -3.125rem;
+}
+
+.pr0 .para1 {
+    position: relative;
+    left: -10%;
+}
+
+.exploreNow {
+    background: transparent;
+    font-size: 0.875rem;
+    margin-top: 0.625rem;
+    margin-left: 0;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    color: black;
+    padding: 0.4375rem 1.875rem;
+    margin-bottom: 0;
+    position: relative;
+    left: -30%;
+    bottom: 5%;
+    border: 1px solid #FFFFFF;
+    transition: all 0.3s;
+}
+
+.exploreNow a {
+    color: white;
+    text-decoration: none;
+}
+
+.exploreNow:hover {
+    background-color: #373bef;
+    transform: translateY(-0.625rem);
+}
+
+.heroinfo {
+    margin: 3.125rem;
+    color: #222222;
+    text-align: center;
+    font-size: 0.875rem;
+    margin-left: 17.5rem;
+    width: 60%;
+}
+
+.line {
+    position: relative;
+    line-height: normal;
+    left: 18%;
+    height: 0.125rem;
+    width: 53%;
+    background-color: #222222;
+    margin-left: 5%;
+}
+
+.main {
+    height: fit-content;
+    color: #000000;
+    text-align: center;
+}
+
+.content-main {
+    display: flex;
+    text-align: center;
+    position: relative;
+    left: auto;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2.5rem;
+}
+
+.contentblock {
+    color: #000000;
+    font-size: 0.8125rem;
+    text-transform: uppercase;
+    margin-left: 0;
+    margin-right: 15.625rem;
+}
+
+.viewcollections {
+    color: #000000;
+    font-size: 0.75rem;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+.viewcollections:hover {
+    color: #373bef;
+}
+
+.blue {
+    color: #000000;
+}
+
+.blue:hover {
+    color: #373bef;
+}
+
+.content-main a:hover {
+    color: #373bef;
+}
+
+.grid1 {
+    height: 21.25rem;
+    width: 64rem;
+    display: grid;
+    grid-row-start: repeat(auto-fit, minmax(5rem, 3fr));
+    position: relative;
+    left: 25vw;
+    gap: 0.625rem;
+}
+
+.grid1 a {
+    text-decoration: none;
+}
+
+.webxr {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://lh3.googleusercontent.com/kVORIV5cfYYXQOkfKRopXbfFUsYbnbhrRA3QWsdHk8-mJG62-NwNbLdJsGxe9c5fu_n0sH2JlA1_lv6ply3E-tMViW8UXYc9jeZKiL4ahw");
+    background-size: cover;
+    width: 20.5rem;
+    height: 20.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: red;
+    font-size: 2.125rem;
+    background-position: center center;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    transition: all 0.3s;
+}
+
+.webxr:hover {
+    transform: scale(1.05);
+}
+
+.webxr-default {
+    position: absolute;
+    transition: opacity 0.4s ease;
+    text-align: left;
+    padding: 1rem;
+    pointer-events: none;
+}
+
+.webxr-hover {
+    position: absolute;
+    transition: opacity 0.4s ease;
+    font-size: 1rem;
+    letter-spacing: normal;
+    text-align: center;
+    padding: 1rem;
+    pointer-events: none;
+}
+
+.webxr-default {
+    opacity: 1;
+}
+
+.webxr-hover {
+    opacity: 0;
+}
+
+.webxr:hover .webxr-default {
+    opacity: 0;
+}
+
+.webxr:hover .webxr-hover {
+    opacity: 1;
+}
+
+.aiexperiments {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://lh3.googleusercontent.com/qRd8q53RGxpRS9BLrTmM9uR-x6sRn3CjBRyMih4iT4bX0U0rouJXbLljXuVKkxqWgybUk4kZVn08YfuQK24Y3ET6zaHKenk");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20.5rem;
+    height: 20.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: red;
+    font-size: 2.125rem;
+    position: relative;
+    top: -21.0625rem;
+    left: 21.25rem;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    transition: all 0.3s;
+}
+
+.aiexperiments:hover {
+    transform: rotateZ(30deg);
+}
+
+.aiexperiments-default {
+    position: absolute;
+    transition: opacity 0.4s ease;
+    text-align: left;
+    padding: 1rem;
+    pointer-events: none;
+}
+
+.aiexperiments-hover {
+    position: absolute;
+    transition: opacity 0.4s ease;
+    font-size: 1rem;
+    letter-spacing: normal;
+    text-align: center;
+    padding: 1rem;
+    pointer-events: none;
+}
+
+.aiexperiments-default {
+    opacity: 1;
+}
+
+.aiexperiments-hover {
+    opacity: 0;
+}
+
+.aiexperiments:hover .aiexperiments-default {
+    opacity: 0;
+}
+
+.aiexperiments:hover .aiexperiments-hover {
+    opacity: 1;
+}
+
+.arts {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://lh3.googleusercontent.com/tFhc-z24vKwLUwdIjM7UwxSp8pBvhTqTPSGZKaE9C9XBo36RtNjg-XPL52CwlQKe9QyafwXZNPOo2CaNu72lHlwt7m58");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20.5rem;
+    height: 20.5rem;
+    display: flex;
+    padding-left: auto;
+    padding-right: auto;
+    text-align: center;
+    color: red;
+    font-size: 2.125rem;
+    position: relative;
+    top: -42.1875rem;
+    left: 42.5rem;
+    max-height: 20.5rem;
+    visibility: visible;
+    max-width: 20.5rem;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.arts:hover {
+    transform: skew(0.312rad);
+}
+
+.arts-default {
+    position: absolute;
+    transition: opacity 0.4s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    padding-top: auto;
+    padding-left: auto;
+    padding-bottom: auto;
+    padding-right: auto;
+    pointer-events: none;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    color: white;
+    max-block-size: 6.25rem;
+    max-width: 18.75rem;
+}
+
+.arts-default p {
+    color: white;
+    text-align: left;
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: 5rem;
+    margin-top: 12.5rem;
+}
+
+.arts-hover {
+    position: absolute;
+    transition: opacity 0.4s ease;
+    font-size: 1rem;
+    letter-spacing: normal;
+    text-align: center;
+    padding: 1rem;
+    pointer-events: none;
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: 2.5rem;
+    margin-top: 7.5rem;
+}
+
+.arts-default {
+    opacity: 1;
+}
+
+.arts-hover {
+    opacity: 0;
+}
+
+.arts:hover .arts-default {
+    opacity: 0;
+}
+
+.arts:hover .arts-hover {
+    opacity: 1;
+}
+
+.grid2 {
+    height: 21.25rem;
+    width: 64rem;
+    display: grid;
+    grid-row-start: repeat(auto-fit, minmax(5rem, 3fr));
+    max-width: 37.5rem;
+    position: relative;
+    left: 43.5vw;
+    top: 41.875rem;
+    gap: 0.625rem;
+    margin-bottom: -21.875rem;
+    margin-right: auto;
+}
+
+.grid2 a {
+    text-decoration: none;
+}
+
+.explearn {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://lh3.googleusercontent.com/uwZ_gjq-mR0uAgCCqGcxFdRwDvFPeQpfyrg6w-VFp49D63YZ0EMGgWcegLbBUKIOgW0NUI6fP00pZv4MDBKuu-Ltag67");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20.5rem;
+    height: 20.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: red;
+    font-size: 2.125rem;
+    position: relative;
+    top: -42.1875rem;
+    left: -27.375rem;
+    background-position: center center;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    transition: all 0.3s;
+}
+
+.explearn:hover {
+    transform: scale(1.05);
+}
+
+.explearn-default {
+    position: absolute;
+    transition: opacity 0.4s ease;
+    text-align: left;
+    padding: 1rem;
+    pointer-events: none;
+}
+
+.explearn-hover {
+    position: absolute;
+    transition: opacity 0.4s ease;
+    font-size: 1rem;
+    letter-spacing: normal;
+    text-align: center;
+    padding: 1rem;
+    pointer-events: none;
+}
+
+.explearn-default {
+    opacity: 1;
+}
+
+.explearn-hover {
+    opacity: 0;
+}
+
+.explearn:hover .explearn-default {
+    opacity: 0;
+}
+
+.explearn:hover .explearn-hover {
+    opacity: 1;
+}
+
+.startwithone {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://lh3.googleusercontent.com/stD4LNF6W2iGGBc9GJNHiRSi-xWcMw-9iKh6ayT-mJ-Xu-2EcJjT8DRd4M9-JQjk5G1Eo2U3OAr4-Te2XobRLVh4ZzAH");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20.5rem;
+    height: 20.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: red;
+    font-size: 2.125rem;
+    position: relative;
+    top: -63.25rem;
+    left: -6.25rem;
+    background-position: center center;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    transition: all 0.3s;
+}
+
+.startwithone:hover {
+    transform: rotateZ(30deg);
+}
+
+.startwithone-default {
+    position: absolute;
+    transition: opacity 0.4s ease;
+    text-align: left;
+    padding: 1rem;
+    pointer-events: none;
+}
+
+.startwithone-hover {
+    position: absolute;
+    transition: opacity 0.4s ease;
+    font-size: 1rem;
+    letter-spacing: normal;
+    text-align: center;
+    padding: 1rem;
+    pointer-events: none;
+}
+
+.startwithone-default {
+    opacity: 1;
+}
+
+.startwithone-hover {
+    opacity: 0;
+}
+
+.startwithone:hover .startwithone-default {
+    opacity: 0;
+}
+
+.startwithone:hover .startwithone-hover {
+    opacity: 1;
+}
+
+.chromeexp {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://lh3.googleusercontent.com/GwPaJ8kky1S9hLbumUUXYB4_LeC6xeNHLrXGDgdvqW1r-6SXTOIJ-JI28u44L5fUZ22tJMG5xW6YJsx1WsYyxE0c7hXQug");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20.5rem;
+    height: 20.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: red;
+    font-size: 2.125rem;
+    position: relative;
+    top: -84.25rem;
+    left: 15rem;
+    margin-bottom: 2.5rem;
+    border-bottom: 1px solid #222222;
+    max-height: 20.5rem;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.chromeexp:hover {
+    transform: skew(0.312rad);
+}
+
+.chromeexp-default {
+    position: absolute;
+    transition: opacity 0.4s ease;
+    text-align: left;
+    padding: 1rem;
+    pointer-events: none;
+}
+
+.chromeexp-hover {
+    position: absolute;
+    transition: opacity 0.4s ease;
+    font-size: 1rem;
+    letter-spacing: normal;
+    text-align: center;
+    padding: 1rem;
+    pointer-events: none;
+}
+
+.chromeexp-default {
+    opacity: 1;
+}
+
+.chromeexp-hover {
+    opacity: 0;
+}
+
+.chromeexp:hover .chromeexp-default {
+    opacity: 0;
+}
+
+.chromeexp:hover .chromeexp-hover {
+    opacity: 1;
+}
+
+.line2 {
+    position: relative;
+    line-height: normal;
+    top: 25rem;
+    left: 27.5rem;
+    height: 0.125rem;
+    width: 37.5rem;
+    background-color: #222222;
+    text-align: center;
+}
+
+.viewexp {
+    height: 0.625rem;
+    width: 37.5rem;
+    position: relative;
+    top: 25rem;
+    left: 27.5rem;
+    background-color: transparent;
+    text-align: center;
+    color: #000000;
+    display: flex;
+    justify-content: space-between;
+}
+
+.view1 {
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.view2 {
+    color: #000000;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+.view2 a {
+    color: #000000;
+}
+
+.view2 a:hover {
+    color: #373bef;
+}
+
+.main2 {
+    background-color: #000000;
+}
+
+.parentcolumn {
+    display: flex;
+    gap: 1.25rem;
+    position: relative;
+    top: 31.25rem;
+    background-color: #000000;
+    background-position: center;
+}
+
+.column1 {
+    color: red;
+    flex: 1;
+    margin-left: 12.5rem;
+    height: auto;
+    width: auto;
+    background-color: #DAEF68;
+}
+
+.column2 {
+    color: red;
+    flex: 1;
+    height: auto;
+    width: auto;
+    background-color: #373bef;
+}
+
+.list1 {
+    position: relative;
+    left: 27.6875rem;
+    top: 28.125rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 0.625rem;
+    overflow-x: hidden;
+    max-width: 37.5rem;
+    margin-right: 10rem;
+}
+
+.gif1 {
+    height: 10.5rem;
+    width: 18.667rem;
+    background-image: url("https://storage.googleapis.com/gweb-experiments.appspot.com/8663-CulturalIcons_HeroImage_01.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.7em;
+    margin-left: 0;
+    border: 1px solid #222222;
+    margin-top: -1.25rem;
+    cursor: pointer;
+}
+
+.gif2 {
+    height: 10.5rem;
+    width: 18.625rem;
+    background-image: url("https://storage.googleapis.com/gweb-experiments.appspot.com/2296-SayWhatYouSee_Hero_01.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.7em;
+    margin-bottom: 2.5rem;
+    cursor: pointer;
+}
+
+.gif2:hover {
+    filter: brightness(50%);
+}
+
+.gif2 {
+    z-index: 1;
+}
+
+.overview4 {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    background-color: transparent;
+    padding: 0.625rem;
+    font-size: 0.75rem;
+    cursor: pointer;
+    position: relative;
+    top: -5.25rem;
+    left: -9.3125rem;
+    z-index: 100;
+    right: -9.3125rem;
+    text-decoration: none;
+    margin-left: -1.875rem;
+    margin-top: auto;
+}
+
+.overview4 a {
+    text-decoration: none;
+}
+
+.gif2:hover .overview4 {
+    opacity: 1;
+}
+
+.overview4:hover {
+    background-color: #373bef;
+}
+
+.gif3 {
+    height: 10.5rem;
+    width: 18.667rem;
+    background-image: url("https://storage.googleapis.com/gweb-experiments.appspot.com/8993-Don%27t%20Touch%20The%20Art_HeroImage_02.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.7em;
+}
+
+.gif3:hover {
+    filter: brightness(50%);
+}
+
+.overview1div {
+    height: 10.5rem;
+    width: auto;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.overview1div img {
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.overview1div:hover img {
+    filter: brightness(50%);
+}
+
+.overview1 {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    background-color: transparent;
+    padding: 0.625rem;
+    font-size: 0.75rem;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.overview1 a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.overview1div:hover .overview1 {
+    opacity: 1;
+}
+
+.overview1:hover {
+    background-color: #373bef;
+}
+
+.overview1::after {
+    content: " ";
+}
+
+.li1 {
+    height: auto;
+    width: auto;
+    font-size: 0.8125rem;
+    line-height: 1.5em;
+    font-weight: 600;
+    padding-top: 0.625rem;
+    position: relative;
+    top: -11.25rem;
+    left: 20.625rem;
+    letter-spacing: 0.01875rem;
+    color: #333333;
+    margin-bottom: -6.25rem;
+    max-width: 12.5rem;
+    margin-left: 7rem;
+}
+
+.fade {
+    color: #999999;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: normal;
+    max-width: 25rem;
+    text-decoration: none;
+}
+
+.text0 {
+    font-size: 0.75rem;
+    color: #333333;
+    letter-spacing: normal;
+    max-width: 25rem;
+}
+
+.li2 {
+    height: auto;
+    width: auto;
+    font-size: 0.8125rem;
+    line-height: 1.5em;
+    font-weight: 600;
+    max-width: 25rem;
+    position: relative;
+    margin-top: 1rem;
+    top: -11.25rem;
+    left: 20.625rem;
+    letter-spacing: 0.01875rem;
+    color: #333333;
+    margin-bottom: -8.125rem;
+    margin-left: 7rem;
+}
+
+.overview2div {
+    height: 10.5rem;
+    width: auto;
+    position: relative;
+}
+
+.overview2div img {
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.overview2div:hover img {
+    filter: brightness(50%);
+}
+
+.overview2 {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    background-color: transparent;
+    padding: 0.625rem;
+    font-size: 0.75rem;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.overview2 a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.overview2div:hover .overview2 {
+    opacity: 1;
+}
+
+.overview2:hover {
+    background-color: #373bef;
+}
+
+.overview2::after {
+    content: " ";
+}
+
+.overview2 .pic2 {
+    margin-top: 1rem;
+}
+
+.li3 {
+    height: auto;
+    width: auto;
+    font-size: 0.8125rem;
+    line-height: 1.5em;
+    font-weight: 600;
+    position: relative;
+    margin-top: -1.25rem;
+    top: 0;
+    left: 20.625rem;
+    letter-spacing: 0.01875rem;
+    color: #333333;
+    margin-bottom: -8.125rem;
+    max-width: 25rem;
+    text-decoration: none;
+    margin-left: 6.8rem;
+}
+
+.gif1:hover .li3,
+.gif1:hover .fade,
+.gif1:hover .text0 {
+    text-decoration: none;
+}
+
+.gif1 {
+    height: 12rem;
+    width: 20rem;
+    margin-bottom: 1.875rem;
+    margin-top: -1.25rem;
+    z-index: 1;
+    margin-left: 1rem;
+}
+
+.overview3 {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    background-color: red;
+    padding: 0.625rem;
+    font-size: 0.75rem;
+    cursor: pointer;
+    position: relative;
+    top: -11.5rem;
+    left: -9.3125rem;
+    z-index: 100;
+    right: -9.3125rem;
+    text-decoration: none;
+    margin-left: -1.875rem;
+    margin-top: auto;
+}
+
+.overview3 a {
+    text-decoration: none;
+}
+
+.gif1:hover .overview3 {
+    opacity: 1;
+}
+
+.overview3:hover {
+    background-color: #373bef;
+}
+
+.list0 {
+    height: 72rem;
+    background-color: #eeeeee;
+    width: 26rem;
+    position: relative;
+    top: -45.9375rem;
+    left: 68.75rem;
+    line-height: 1.3em;
+    text-decoration: none;
+    margin-left: 10rem;
+    margin-top: -10rem;
+}
+
+.list0 h2 {
+    font-size: 0.8125rem;
+    color: #222222;
+    font-weight: 500;
+    letter-spacing: 0.01875rem;
+    padding-top: 1.25rem;
+    padding-left: 1.25rem;
+    text-decoration: none;
+}
+
+.newlist {
+    padding-left: 1.25rem;
+    padding-top: 0.9375rem;
+}
+
+.tarot,
+.tarot1,
+.tensor0,
+.css0 {
+    color: #333333;
+    position: relative;
+    top: -10.3125rem;
+    left: 10.9375rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+    margin-left: 4rem;
+}
+
+.tarot1 {
+    position: relative;
+    margin-top: -3rem;
+}
+
+.tarot p,
+.tarot1 p,
+.tensor0 p,
+.css0 p {
+    color: #777777;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.tarot1,
+.tensor,
+.css {
+    position: relative;
+    top: -1.875rem;
+    padding-top: -6.25rem;
+    margin-top: -6.25rem;
+}
+
+.tarot {
+    margin-top: -3rem;
+}
+
+.tarot1 {
+    margin-top: -11rem;
+    margin-bottom: 3rem;
+}
+
+.mirror {
+    position: relative;
+    top: -1.875rem;
+    padding-top: -6.25rem;
+    margin-top: -6.25rem;
+    margin-bottom: 4rem;
+}
+
+.tensor {
+    margin-top: 4rem;
+}
+
+.tensor0 {
+    margin-top: -3rem;
+}
+
+.css {
+    margin-top: 0rem;
+}
+
+.css0 {
+    margin-top: -3rem;
+}
+
+footer {
+    background-color: #000000;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 5rem;
+    width: 100%;
+    margin-top: -26.25rem;
+}
+
+.logo {
+    height: 1.875rem;
+    width: 5.625rem;
+    background-image: url("https://experiments.withgoogle.com/static/img/google-logo.svg");
+    background-size: cover;
+    background-position: center center;
+    padding-top: 0.625rem;
+    text-align: left;
+    margin-top: auto;
+    margin-bottom: auto;
+    cursor: pointer;
+}
+
+.facebook {
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #a9a9a9;
+}
+
+.facebook a {
+    text-decoration: none;
+}
+
+.facebook a:hover {
+    color: blue;
+}
+
+.facebook img {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.facebook img:hover {
+    filter: brightness(80%);
+}
+
+.venatus {
+    background-image: url("logo2.png");
+    background-size: cover;
+    background-position: center center;
+    border-radius: 50%;
+    height: 15%;
+    width: 15%;
+    position: fixed;
+    right: 5%;
+    animation: 4s linear 0s infinite alternate up-down;
+    cursor: pointer;
+}
+
+@keyframes up-down {
+    from {
+        transform: translateY(110vh);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
